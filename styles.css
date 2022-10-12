@@ -14,6 +14,31 @@
   border-bottom: 1px solid #d7eaff;
 }
 
+.container_openlab {
+  color: #1a232f;
+  font-size: 13px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto !important;
+  margin-left: auto !important;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.justify-content-center {
+  justify-content: center!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
 .discord-container-txt {
   margin-right: 48px;
   vertical-align: middle;
@@ -171,13 +196,21 @@ li {
   margin-top: 50px;
 }
 
-.sqaures_info {
-  column-width: 6;
+.abt_openlab {
+  font-size: 40px;
+  margin-bottom: 48px;
+  margin-top: 0px;
+  font-weight: 300;
 }
 
-.col{
-  background-color: red;
-  margin:10px
+.abt_txt1 {
+  font-size: 16px;
+  color: #566b8d;
+  margin-top: 1.5rem;
 }
 
-
+.abt_txt2 {
+  font-size: 16px;
+  color: #566b8d;
+  margin-top: 1.5rem;
+}

@@ -2,7 +2,8 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.discord-container {
+/* Discord Join Link */
+.discord-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,18 +15,34 @@
   border-bottom: 1px solid #d7eaff;
 }
 
-.container_openlab {
-  color: #1a232f;
-  font-size: 13px;
-  width: 100%;
-  padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-  margin-right: auto !important;
-  margin-left: auto !important;
-  display: flex;
-  vertical-align: middle;
-  align-items: center;
+.discord-wrapper-btn img {
+  padding-left: 3px;
 }
+
+.discord-wrapper-txt {
+  margin-right: 10px;
+  vertical-align: middle;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 10;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.discord-wrapper-btn {
+  display: flex;
+  padding: 8px 10px;
+  align-items: center;
+  border-radius: 50rem;
+  border: 1px solid rgb(209, 209, 209);
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+  color: rgb(143, 143, 143);
+  cursor: pointer;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+/* Shortcuts */
 
 .align-items-center {
   align-items: center!important;
@@ -39,38 +56,15 @@
   display: flex!important;
 }
 
-.discord-container-txt {
-  margin-right: 48px;
-  vertical-align: middle;
-  color: black;
-  font-size: 10px;
-  letter-spacing: 1px;
-  font-weight: 10;
-  font-family: "SF Pro Display", sans-serif;
-}
-
-.discord-container-btn {
-  display: flex;
-  padding: 8px 10px;
-  align-items: center;
-  vertical-align: middle;
-  margin-left: 20px;
-  border-radius: 50rem;
-  border: 1px solid rgb(209, 209, 209);
-  text-align: center;
-  background-color: rgb(233, 233, 233);
-  color: rgb(143, 143, 143);
-  cursor: pointer;
-  transition: ease 0.2s;
-  font-family: "SF Pro Display", sans-serif;
-  letter-spacing: 1px;
-}
 .center-text {
   text-align: center;
   font-size: 17.5px;
   margin: 5px 0 8px;
   line-height: 30px;
 }
+
+/* Header */
+
 .menu {
   margin: auto;
   padding-left: 0;
@@ -115,8 +109,11 @@ li {
   font-size: 10px;
   color: #fff;
 }
+
+/* Content Image */
+
 .container {
-  max-width: 1144px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 90px;
   margin-bottom: 70px;
@@ -139,7 +136,7 @@ li {
 }
 
 .text-wrapper h4 {
-  font-size: 17.5px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -169,16 +166,20 @@ li {
   font-size: 40px;
 }
 
-.box_text {
-  max-width: 80%;
+.preco-sa-stat-studentom-wrapper h4 {
+  margin-top: 60px;
 }
+
+/* Boxes */
+
+
 
 .boxes_info div img {
   margin-bottom: 20px;
 }
 
 .boxes_info {
-  margin-top: 10px;
+  margin-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -196,21 +197,126 @@ li {
   margin-top: 50px;
 }
 
-.abt_openlab {
+.main-box p {
+  max-width: 80%;
+}
+/* Vision */
+
+.wrapper-center-vision {
+  display: flex;
+  justify-content: center;
+}
+
+.vision-wrapper {
+  margin-top: 100px;
+  max-width: 90%;
+  justify-content: space-around;
+}
+
+.vision-text {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.vision-text h3 {
   font-size: 40px;
-  margin-bottom: 48px;
-  margin-top: 0px;
-  font-weight: 300;
 }
 
-.abt_txt1 {
-  font-size: 16px;
-  color: #566b8d;
-  margin-top: 1.5rem;
+.vision-text p {
+  font-size: 20px;
 }
 
-.abt_txt2 {
-  font-size: 16px;
-  color: #566b8d;
-  margin-top: 1.5rem;
+.row {
+  display: flex;
 }
+
+.vision-card1 {
+  color: #5d94d7;
+  background-color: rgba(221, 236, 251, 0.4);
+  padding: 40px 20px 5px 150px;
+  margin: 10px;
+  width: 100px;
+}
+.vision-card2{
+  color: #5cc19a;
+  background-color: rgba(156, 238, 204, 0.4);
+  padding: 40px 20px 5px 150px;
+  margin: 10px;
+  width: 100px;
+}
+
+.vision-card3 {
+  color: #dbca68;
+  background-color: rgba(238, 226, 156, 0.4);
+  padding: 40px 20px 5px 150px;
+  margin: 10px;
+  width: 100px;
+}
+
+.vision-card4 {
+  color: #b95e73;
+  background-color: rgba(238, 156, 156, 0.4);
+  padding: 40px 20px 5px 150px;
+  margin: 10px;
+  width: 100px;
+}
+
+.vision-number {
+  font-size: 90px;
+  margin: 0px;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+}
+
+.vision-type {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+/* Which Type in Openlab */
+
+.study-wrapper {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.study-wh {
+  padding-top: 80px;
+  font-size: 30px;
+  max-width: 400px;
+}
+
+.wh-text {
+  height: 160px;
+}
+
+.study-hybrid {
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.study-games {
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.study-app {
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.wh-cards {
+  padding: 30px;
+  border-radius: 5%;
+  margin: 30px;
+  justify-content: center;
+}
+
+.wh-cards:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+

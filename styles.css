@@ -325,14 +325,32 @@ li {
   text-align: center;
 }
 
+.school-text h1 {
+	font-size: 40px;
+}
+
 .school-image1 {
   justify-content: center;
-  width: 300px;
-  height: 150px;
+  width: 500px;
+  height: 250px;
 }
 
 .school-image2 {
   justify-content: center;
-  width: 300px;
-  height: 150px;
+  width: 500px;
+  height: 250px;
+}
+
+.types-wrapper {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.school-type-2 {
+	margin-right: 130px;
+}
+
+.where-text {
+	
 }
